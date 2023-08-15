@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1>COIN FILP</h1>
+</head>
+<body style="background-color: darkslategrey;">
+
+  <button onclick="
+    compflip()
+    ">FLIP COIN</button>
+
+  <script>
+
+    function compflip(){
+      let result = '';
+      const randomno = Math.random();
+      if (randomno> 0 && randomno<=1/2){
+        result = 'heads'
+      }else if (randomno >1/2 && randomno <=1){
+        result = 'tails'
+      }
+      alert(result)
+    }
+    
+    
+  </script>
+  
+</body>
+</html>
